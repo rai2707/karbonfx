@@ -1,0 +1,65 @@
+.main_form {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 7px;
+  background-color: white;
+}
+.main_form_div {
+  
+  justify-content: space-between;
+  display: flex;
+  width: 90%;
+  padding: 30px;
+  margin: 0 auto;
+}
+
+.gender_input {
+  /* display: flex; */
+}
+
+.add_form_btn {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.form_cancel_btn {
+  border: none;
+  border-radius: 6px;
+  padding: 5px 12px;
+  background-color: red;
+  color: white;
+}
+.form_submit_btn {
+  border: none;
+  border-radius: 6px;
+  padding: 5px 12px;
+  background-color: rgba(22, 119, 255, 1);
+  color: white;
+}
+.form_close_btn {
+  border: none;
+  border-radius: 6px;
+  padding: 5px 12px;
+  background-color: rgba(22, 119, 255, 1);
+  color: white;
+}
+
+
+@media screen and (max-width: 500px) {
+    .main_form{
+        width: 70%;
+    }
+    .main_form_div{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+    .form_first_section{
+        
+        margin-right: 50px;
+    }
+  }

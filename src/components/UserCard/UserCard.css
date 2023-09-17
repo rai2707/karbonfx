@@ -1,0 +1,121 @@
+.usercard_main_div {
+  width: 350px;
+  height: 215px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 3px 20px;
+}
+
+.usercard_main_div:hover{
+    box-shadow: 5px 10px 10px rgba(15, 15, 15, 0.202);
+}
+
+.section_one {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+}
+
+.section_one_name {
+  margin: 8px;
+  font-size: 14px;
+}
+
+.green {
+  margin: 10px;
+  background-color: rgba(26, 115, 24, 1);
+  border: none;
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+}
+.purple {
+  margin: 10px;
+  background-color: purple;
+  border: none;
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+}
+.orange {
+  margin: 10px;
+  background-color: orange;
+  border: none;
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+}
+
+.section_two {
+  border-bottom: 1px solid black;
+  padding: 1px 5px;
+}
+
+.section_two_age {
+  display: flex;
+
+  align-items: center;
+}
+.section_two_dob {
+  display: flex;
+
+  align-items: center;
+}
+.section_two_gender {
+  display: flex;
+
+  align-items: center;
+}
+.section_two_food {
+  display: flex;
+
+  align-items: center;
+}
+.section_two_hobbies {
+  display: flex;
+
+  align-items: center;
+}
+.section_two_ptag {
+  font-size: 12.5px;  
+  margin: 5px 10px 5px 0;
+}
+.section_two_htag {
+  font-size: 13px;
+  margin: 5px 10px 5px 0;
+}
+
+.section_three{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    margin: 8px auto;
+}
+.delete_btn{
+    width: 70px;
+    font-size: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: red;
+}
+.view_btn{
+    width: 70px;
+    font-size: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: rgba(22, 119, 255, 1);
+}
+.edit_btn{
+    width: 70px;
+    font-size: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: rgba(22, 119, 255, 1);
+}

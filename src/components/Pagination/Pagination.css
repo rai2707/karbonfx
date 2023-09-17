@@ -1,0 +1,46 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1px solid black;
+  width: 30%;
+  box-sizing: border-box;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.selected{
+  background-color: gray;
+  color: #fff;
+}
+
+.page-link {
+  
+  height: 20px;
+  width: 20px;
+  font-weight: bold;
+  list-style: none;
+  text-align: center;
+  
+}
+
+.page-link:hover{
+  border: 1px solid black;
+  
+}
+
+.navigation{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  /* border: 1px solid black; */
+}
+
+@media screen and (max-width: 500px) {
+  
+  .pagination{
+    margin-bottom: 10px;
+  }
+  
+}

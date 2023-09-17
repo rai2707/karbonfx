@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.user_inventory {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(30, 30, 30, 0.88);
+  height: 60px;
+  color: white;
+  padding-left: 50px;
+}
+
+.user_icon {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  border: 1px solid white;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+ margin-right: 50px;
+}
+.fa_user{
+    font-size: 22px;
+}
+
+
+/* Media Query for Mobile */
+@media screen and (max-width: 500px) {
+  .user_icon  {
+    display: none;
+  }
+  .user_inventory {
+    text-align: center;
+    border: 1px solid white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  }
+}
