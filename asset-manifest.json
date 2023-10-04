@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/karbonfx/static/css/main.a31a7de8.css",
+    "main.js": "/karbonfx/static/js/main.dd7a8980.js",
+    "static/js/787.1952b6dd.chunk.js": "/karbonfx/static/js/787.1952b6dd.chunk.js",
+    "index.html": "/karbonfx/index.html",
+    "main.a31a7de8.css.map": "/karbonfx/static/css/main.a31a7de8.css.map",
+    "main.dd7a8980.js.map": "/karbonfx/static/js/main.dd7a8980.js.map",
+    "787.1952b6dd.chunk.js.map": "/karbonfx/static/js/787.1952b6dd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a31a7de8.css",
+    "static/js/main.dd7a8980.js"
+  ]
+}
